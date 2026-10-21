@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QA Automation Portfolio">
+  <test name="UI Tests">
+    <classes>
+      <class name="portfolio.ui.LoginTests"/>
+      <class name="portfolio.ui.CheckoutTests"/>
+    </classes>
+  </test>
+  <test name="API Tests">
+    <classes>
+      <class name="portfolio.api.BookingApiTests"/>
+    </classes>
+  </test>
+</suite>
